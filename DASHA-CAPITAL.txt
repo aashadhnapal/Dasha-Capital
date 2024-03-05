@@ -1,5 +1,5 @@
 DASHA CAPITAL
-Project Name – DashaCapital
+Project Name – DashaCapital ----------------------name of the project
 Web Page -1:  
 Login Page (sign in)
 User could Login with User Name and Password. If new user, then Registration of with User details need to be completed.

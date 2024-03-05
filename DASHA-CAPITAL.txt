@@ -1,0 +1,147 @@
+DASHA CAPITAL
+Project Name – DashaCapital
+Web Page -1:  
+Login Page (sign in)
+User could Login with User Name and Password. If new user, then Registration of with User details need to be completed.
+User privileges:
+1, Super Administrator – (Read and Write all DB)
+2, Administrator (Read all tables and Write specific tables in DB)
+3, Super User (Cashier and ATM Dispatcher)
+4, User (ATM dispatcher)
+5, Guest (About us)
+Web Page -2:
+	User Registration (sign up)
+		User will be registered with in following inputs
+			1, Full Name*
+			2, Email ID*
+			3, Mobile Number*
+			4, User Name*
+			5, Password*
+			6, Confirm password*
+			7, Address
+			8, Employee ID*
+			9, Adhaar Card*
+			10, Alternative Mobile Number*
+Inputs are validated automatically and invalid inputs identified and intimated to the user.
+
+Web Page -3: 
+	Super Administrator Home Page
+1, Button to open Bank draft submit page (Indent Report).
+		2, Button to open Scan ATM Machine.
+		3, Button for Bank Draft Reports.
+4, Button for ATM Reports.
+5, Button for User profile report.
+6, Logout Button.
+7, Over Time Report. 
+8, Incident Report-to Rise Ticket.
+Web Page – 4:
+	Administrator Home Page
+1, Button to open Bank draft submit page.
+		2, Button to open Scan ATM Machine.
+		3, Button for Bank Draft Reports.
+4, Button for ATM Reports.
+5, Button for User profile report.
+		6, Logout Button.
+Web Page – 5:
+	Super User Home Page (Cashier cum Dispatcher)
+		1, Button to open Bank draft submit page.
+		2, Button to open Scan ATM Machine.
+		3, Button to open Reports.
+		4, Logout Button.
+Web Page -6:
+	User Home Page (Dispatcher)
+		1, Button to open Scan ATM Machine.
+		2, Button to open Reports.
+		3, Logout Button.
+Web Page – 7:
+	Guest Home Page
+		1, About us, any additional information.
+		2, Logout Button.
+Web Page -8:
+	Bank Draft Submit Page
+		1, Preferred Cash Denomination count inputs (Super Administrator will configure the preferred denomination inputs as per the Business Requirement).
+		2, Total no of Notes auto calculated.
+		3, Total amount auto calculated.
+		4, Accept Terms and Conditions (checkbox).
+		5, Submit Button.
+Web Page -9:
+Scan QR Code (Identify ATM Machine with the QR code)
+		1, Camera window to view QR Code (Location matching updating?) —ATM id, location, Area, Agency, Machine model-NCR, BOLT, DIEBOLD, ATM type- width drawl, deposit,
+		2, Result will be auto displayed.
+		3, Proceed Button.
+		4, Retry Button.
+
+
+Web Page -10:
+	Upload Pre-Dispatch Documents
+		1, Button for Ledger (Admin-Server Report) counter (ATM Stock status as per Bank Bill).
+		2, Button for ATM (Machine) counter (ATM Stock status as per Machine Bill).
+		3, Report.
+4, Back Button. 
+		5, Refresh Button.
+		6, Submit Button.
+
+Web Page -11:
+	OCR Scan (ATM Machine report printout scan)
+		1, Camera Window
+		2, Scan Button.
+		3, Report
+		4, Refresh Button
+		5, Back Button
+		6, Submit Button.
+Web Page -12:
+	Upload Post-Dispatch Documents
+		1, Button for Ledger counter (ATM Stock status as per Bank Bill).
+		2, Button for ATM counter (ATM Stock status as per Machine Bill).
+		3, Report.
+
+4, Back Button. 
+		5, Refresh Button.
+		6, Submit Button.
+
+Note: For Ledger and ATM. webpage-11 will be used to get OCR result.
+Web Page -13:
+	 Dispatcher Consolidate Report -user
+		1, Report Table –Read only
+		2, Back Button
+Web Page -14:
+	Cashier Consolidate Report – Super User
+		1, Report for Bank Draft (Read only).
+		2, Report for ATM Machine (Read and Write-optional).
+		3, Back Button.
+
+Web Page -15:
+	Administrator Consolidate Report
+		1, All Users Report for Bank Draft (Read and Write).
+		2, All Users Report for ATM Machine (Read and Write).
+		3, All Users profile report (Read only).
+		4, Back Button.
+Web Page -16:
+	Super Administrator Report
+		1, All Users Report for Bank Draft (Read and Write).
+		2, All Users Report for ATM Machine (Read and Write).
+		3, All Users profile report (Read and Write).
+		4, Back Button.
+Reports of all activities are the Super User and the User will be displayed category wise.
+All User’s record are Editable.
+
+
+
+
+
+	
+
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
